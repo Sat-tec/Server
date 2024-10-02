@@ -1,0 +1,2 @@
+Dependencies USE:
+        npm install express mysql2 bcryptjs jsonwebtoken dotenv cors body-parser
