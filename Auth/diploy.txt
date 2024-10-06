@@ -1,0 +1,14 @@
+deploy your Express + MySQL backend on Heroku:
+
+    1) Create Account on Heroku
+    2) Rename the entry file of backend to `index.js`
+    3) Add the file in the backend named 'Procfile'
+                ADD IN file: web: node index.js
+
+    4) Install Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+        run: exe installer
+    
+    5) Open CMD
+        heroku login
+        Navigate to server directory of project
+        heroku create your-app-name
